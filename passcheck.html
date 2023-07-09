@@ -81,7 +81,7 @@
             var minutes = String(currentDate.getMinutes()).padStart(2, '0');
 
             // 在这里替换为您的固定密码
-            var fixedPassword = "xhlsR";
+            var fixedPassword = "xhlsR!";
 
             // 拼接密码
             var fullPassword = fixedPassword + month + day + hours + minutes;
@@ -91,7 +91,7 @@
                 messageElement.style.color = "green";
 
                 // 在这里替换为您要跳转的页面URL
-                window.location.href = "https://scucser.github.io/infor/lastversion";
+                window.location.href = "https://scucser.github.io/keepdatarepo/#/data/blade";
             } else {
                 messageElement.textContent = "密码错误";
                 messageElement.style.color = "red";
